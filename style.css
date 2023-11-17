@@ -123,11 +123,15 @@ body{
     width: 100vw;
     height: 500px;
     margin-top: 480px;
+  
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-template-rows: 120px 100px 100px;
     column-gap: 50px;
     
 
+}
+.spl{
+    margin-top:700px ;
 }
 .container2 h2{
     color: black;
@@ -225,27 +229,19 @@ body{
     z-index: 999;
 }
 .srv{
-    position: absolute;
     margin-top: 25px;
-    width: 100vw;
     height: 50px;
 }
 .srv h3{
     text-align: center;
     font-size: 30px;
     font-weight: 600;
-    text-decoration: underline red;
+    
 }
 .parantsrvs{
-    width: 100vw;
     height: 600px;
-    display: flex;
-  
     background-color: rgb(245, 241, 241);
-    align-items: start;
-    justify-content: center;
     gap: 25px;
-    flex-wrap: wrap;
     
     
 }
@@ -253,7 +249,6 @@ body{
 .childsrvs{
     height: 430px;
     width: 380px;
-    
     background-color: rgb(255, 255, 255);
     margin-top: 120px;
 
@@ -286,14 +281,11 @@ body{
     
     height: 400px;
     margin-top: 100px;
-    display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 3fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
 .childvlu{
     height: 150px;
-    
-   
     width: 200px;
 }
 .childvlu h4{
@@ -332,17 +324,9 @@ body{
 }
 .parantnws{
     background-color: rgb(246, 242, 242);
-    width: 100vw;
     height: 1100px;
-    display: flex;
-    
     margin-top: 140px;
     column-gap: 25px;
-    
-    
-   justify-content: center;
-
-    flex-wrap: wrap;
 }
 .childnws{
     padding-top: 15px;
@@ -364,7 +348,6 @@ body{
     padding-left: 20px;
     padding-right: 10px;
     
-
 }
 .childnws h5{
     padding-left: 20px;
@@ -374,9 +357,6 @@ body{
 .childnws img{
 width: 96%;
 padding-left: 15px;
-
-
-
 }
 .childnws a{
     padding-left: 20px;
@@ -423,7 +403,7 @@ padding-left: 15px;
  height: 430px;
  background-color: bisque;
  margin-left: 60vw;
- position: absolute;
+
  margin-top: -200px;
 }
 .test3 img{
